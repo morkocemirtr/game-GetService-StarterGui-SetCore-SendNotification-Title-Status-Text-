@@ -1,0 +1,18 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+													Title = "Status",
+Text = "",													Duration = 5, })
+Wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+
+Title = "",										Text = "All script is Working!",													Duration = 5, })
+Wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+
+
+Title = "",																								Text = "Patched script: no patched",
+													Duration = 5, })
+Wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+
+Title = "Update detect! ",																									Text = "Waiting until the game is updated ",
+			 										Duration = 5, })
